@@ -1,0 +1,16 @@
+#hero-img img{
+    max-width: 100vw;
+    height: auto;
+}
+
+.panel{
+    margin-top: 1.5em;
+}
+
+.panel-body{
+    min-height: 295px;
+}
+
+.panel-footer p{
+    font-size: 1.2em;
+}
