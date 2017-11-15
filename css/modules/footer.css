@@ -1,0 +1,10 @@
+.site-footer {
+    background: linear-gradient(135deg, #1b6d85, white);
+    color: white;
+}
+
+.footer-item:nth-child(1) h4 { text-align: center }
+.footer-item:nth-child(2) { margin-top: 0.5em; }
+.footer-item:nth-child(3) { text-align: center }
+
+.glyphicon-thumbs-up, .glyphicon-thumbs-down { font-size:40pt; }
