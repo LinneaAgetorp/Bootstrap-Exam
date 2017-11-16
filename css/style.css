@@ -34,13 +34,30 @@
 
 #blog-img img{
     width: 350px;
-    height: 200px;
-    
+    height: 200px;  
 }
 
 #float-img{
     max-width: 300px;
     float: right;
+}
+
+#latest-posts{
+    float: left;
+    background-color: rgb(241, 239, 239);
+    height: 500px;
+}
+#latest-posts ul{
+    list-style-type: none;
+    padding: 1.2em;
+    
+}
+#latest-posts ul li{
+    text-decoration: none;
+}
+
+.btn{
+    margin-bottom: 1em;
 }
 
 @media all and (max-width: 768px){
