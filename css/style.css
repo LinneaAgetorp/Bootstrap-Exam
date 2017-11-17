@@ -66,3 +66,25 @@
         width: 100%;
     }
 }
+.wrap-about{
+    width: 100vw;
+}
+
+.about-us{
+    min-height: 300px;
+    width: 100vw;
+}
+.about-us:nth-child(2n){
+    background-color: rgb(216, 240, 250);
+}
+
+
+.about-us p{
+    padding: 1.5em;
+}
+
+@media all and (min-width: 769px){
+    .about-us img{
+        margin: 1.5em 0;
+    }
+}
