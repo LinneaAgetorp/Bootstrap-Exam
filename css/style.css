@@ -67,6 +67,10 @@
     margin-bottom: 1em;
 }
 
+.btn-danger, .btn-success{
+    margin-bottom: 0;
+}
+
 @media all and (max-width: 768px){
     #float-img{
         max-width: none;
