@@ -42,18 +42,25 @@
     float: right;
 }
 
+.wrap-blog-posts{
+    width: 100vw;
+}
+
 #latest-posts{
-    float: left;
-    background-color: rgb(241, 239, 239);
+    background-color: rgb(219, 240, 250);
     height: 500px;
+}
+#latest-posts h4{
+    text-decoration: underline;
 }
 #latest-posts ul{
     list-style-type: none;
-    padding: 1.2em;
+    padding: 1em 0.5em;
     
 }
 #latest-posts ul li{
     text-decoration: none;
+    padding-top: 0.5em;
 }
 
 .btn{
