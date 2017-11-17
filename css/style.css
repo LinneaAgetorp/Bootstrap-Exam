@@ -1,3 +1,4 @@
+/* Index */
 #hero-img img{
     max-width: 100vw;
     height: auto;
@@ -19,4 +20,82 @@
 
 .panel-footer p{
     font-size: 1.2em;
+}
+
+/* Blog Page */
+.jumbotron{
+    background-color: rgb(23, 23, 23);
+    color: whitesmoke;
+}
+
+#blog-img {
+    padding: 1em;
+}
+
+#blog-img img{
+    width: 350px;
+    height: 200px;
+}
+
+#float-img{
+    max-width: 300px;
+    float: right;
+}
+
+.wrap-blog-posts{
+    width: 100vw;
+}
+
+#latest-posts{
+    background-color: rgb(219, 240, 250);
+    height: 500px;
+}
+#latest-posts h4{
+    text-decoration: underline;
+}
+#latest-posts ul{
+    list-style-type: none;
+    padding: 1em 0.5em;
+
+}
+#latest-posts ul li{
+    text-decoration: none;
+    padding-top: 0.5em;
+}
+
+.btn{
+    margin-bottom: 1em;
+}
+
+.btn-danger, .btn-success{
+    margin-bottom: 0;
+}
+
+@media all and (max-width: 768px){
+    #float-img{
+        max-width: none;
+        width: 100%;
+    }
+}
+.wrap-about{
+    width: 100vw;
+}
+
+.about-us{
+    min-height: 300px;
+    width: 100vw;
+}
+.about-us:nth-child(2n){
+    background-color: rgb(216, 240, 250);
+}
+
+
+.about-us p{
+    padding: 1.5em;
+}
+
+@media all and (min-width: 769px){
+    .about-us img{
+        margin: 1.5em 0;
+    }
 }

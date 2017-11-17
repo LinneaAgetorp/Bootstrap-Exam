@@ -10,6 +10,7 @@
     border-radius: 0;
     height: 4em;
     line-height: 3em;
+    margin-bottom: 0;
 }
 
 .items .btn-default {
