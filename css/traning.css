@@ -1,0 +1,94 @@
+img {
+    margin: 5px;
+}
+
+img:hover {
+    background: rgba(0, 0, 255, 0.8);
+    filter: contrast(200%);
+}
+
+.image {
+    background: black;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.image > div {
+    color: white;
+}
+
+#tab-panel {
+    margin-top: 5px;
+}
+
+.tab-pane h2 {
+    text-align: center;
+}
+
+#tab-panel a:hover {
+    background: black;
+}
+
+#tab-panel a {
+    border-radius: 5px 5px 0 0;
+}
+
+form select:hover {
+    background: olivedrab;
+    color: black;
+}
+
+form input:hover {
+    background: olivedrab;
+    color: black;
+}
+
+form input:active {
+    background: white;
+    color: black;
+}
+
+.modal-dialog {
+    margin-top: 0;
+}
+
+.nav-tabs > li {
+    border-radius: 20px 10px 0 0;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    color: black;
+    top: 0;
+    left: 60px;
+}
+.tabata {
+    top: 350px;
+    left: 400px;
+
+}
+
+.yoga {
+    left: 200px;
+}
+
+.boxing {
+    left: 400px;
+}
+
+.ball {
+    top: 50px;
+}
+
+@media screen and (max-width: 575px) {
+    figcaption {
+        display: none;
+    }
+    .spinning {
+        display: none;
+    }
+}
