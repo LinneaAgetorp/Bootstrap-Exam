@@ -38,16 +38,16 @@ img:hover {
 }
 
 form select:hover {
-    background: olivedrab;
+    background: #449d44;
     color: black;
 }
 
 form input:hover {
-    background: olivedrab;
+    background: #449d44;
     color: black;
 }
 
-form input:active {
+form input:focus {
     background: white;
     color: black;
 }
@@ -66,33 +66,22 @@ form input:active {
 
 figcaption {
     position: absolute;
-    color: black;
-    top: 0;
-    left: 60px;
-}
-.tabata {
-    top: 350px;
-    left: 400px;
-
+    background: rgba(226, 225, 225, 0.5);   
+    color: rgb(104, 34, 34);
+    bottom: 10%;
+    left: 20%;
 }
 
-.yoga {
-    left: 200px;
+figcaption > h1 {
+    margin: 0;
 }
 
-.boxing {
-    left: 400px;
-}
+@media screen and (max-width: 500px) {
 
-.ball {
-    top: 50px;
-}
-
-@media screen and (max-width: 575px) {
-    figcaption {
-        display: none;
-    }
     .spinning {
         display: none;
+    }
+    h1 {
+        font-size: 200%;
     }
 }
