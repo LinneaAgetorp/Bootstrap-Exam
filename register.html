@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registrering</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4 col-xs-8 col-xs-offset-2">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    Registrering
+                </div>
+                <div class="panel-body">
+                    <form action="index.html" method="post">
+                        <label for="sizing-addon1">Användarnamn</label>
+                        <div class="input-group">
+                            <span class="input-group-addon" id="sizing-addon1"><span class="glyphicon glyphicon-user"></span></span>
+                            <input type="text" class="form-control" placeholder="Företagsnamn" aria-describedby="sizing-addon1" name="cname" > <!-- companyname -->
+                        </div>
+
+                        <label for="sizing-addon2">Email</label>
+                        <div class="input-group">
+                            <span class="input-group-addon" id="sizing-addon2"><span class="glyphicon glyphicon-envelope"></span></span>
+                            <input type="text" class="form-control" placeholder="Email" aria-describedby="sizing-addon2">
+                        </div>
+
+                        <label for="sizing-addon3">Lösenord</label>
+                        <div class="input-group">
+                            <span class="input-group-addon" id="sizing-addon3"><span class="glyphicon glyphicon-lock"></span></span>
+                            <input type="password" class="form-control" placeholder="Lösenord" aria-describedby="sizing-addon3" name="pass1">
+                        </div>
+
+                        <label for="sizing-addon4">Bekräfta lösenord</label>
+                        <div class="input-group">
+                            <span class="input-group-addon" id="sizing-addon4"><span class="glyphicon glyphicon-lock"></span></span>
+                            <input type="password" class="form-control" placeholder="Bekräfta lösenord" aria-describedby="sizing-addon4" name="pass2">
+                        </div>
+                        <button class="btn btn-success btn-block" type="submit">Slutför <span class="glyphicon glyphicon-check"></span> </button>
+                        <div class="text-center">
+                            <a href="index.html">Tillbaka</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
