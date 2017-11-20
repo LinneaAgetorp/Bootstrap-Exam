@@ -6,20 +6,102 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/modules/navigation.css">
+    <link rel="stylesheet" href="css/modules/footer.css">
         
     </head>
-    <body> 
-        <!-- Navbar -->
-        
-        <ul class="breadcrumb">
-            <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
-            <li><a href="about.html">Om oss</a></li>
-        </ul>
+    <body>
+    <!-- Navbar -->
+    <header class="container">
+        <div class="row">
+            <div class="col-sm-6 col-xs-12 logo">
+                <a href="index.html"><span class="logo-left">power</span> <span class="logo-right">Wellness</span></a>
+            </div>
+            <div class="col-sm-6 col-xs-12 hidden-xs text-right items">
+                <div class="btn-group">
+                    <div class="dropdown">
+                                <span class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                    LOGGA IN <span class="glyphicon glyphicon-chevron-down" href="#"></span></span></span>
+                        <div class="dropdown-menu">
+                            <div class="form-group custom-form">
+                                <p>Fyll i användarnamn och lösenord</p>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Användarnamn" aria-describedby="sizing-addon2">
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Lösenord" aria-describedby="sizing-addon2">
+                                </div>
+                                <label><input type="checkbox" value="">Håll mig inloggad</label>
+                                <a href="#" class="btn btn-primary">Logga in</a>
+                                <p class="forgot">Glömt ditt lösenord? <a href="#">Klicka här</a> </p>
+                            </div>
+                        </div>
+                        <a class="btn btn-success" href="register.html">BLI MEDLEM</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target="#my-menu">
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse" id="my-menu">
+                    <ul class="nav navbar-nav">
+                        <li><a href="blog.html">Blogg</a> </li>
+                        <li><a href="instruktorer.html">Instruktörer</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Träning <span class="glyphicon glyphicon-chevron-down"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="power-spinning.html">Power-spinning</a></li>
+                                <li><a href="power-step.html">Power-step</a></li>
+                                <li><a href="power-yoga.html">Power-yoga</a></li>
+                                <li><a href="power-tabata.html">Power-tabata</a></li>
+                                <li><a href="power-boxing.html">Power-boxing</a></li>
+                                <li><a href="power-ball.html">Power-ball</a></li>
+                                <li><a href="#">Alla pass</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about.html">Om oss</a> </li>
+                        <li><a href="contact.html">Kontakt</a> </li>
+                        <li class="visible-xs dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">LOGGA IN <span class="glyphicon glyphicon-user"></span></a>
+                            <div class="dropdown-menu">
+                                <div class="input-group mobile-login">
+                                    <span class="input-group-addon" id="sizing-addon3">A</span>
+                                    <input type="text" class="form-control" placeholder="Användarnamn" aria-describedby="sizing-addon2">
+                                </div>
+                                <div class="input-group mobile-login">
+                                    <span class="input-group-addon" id="sizing-addon4">L</span>
+                                    <input type="text" class="form-control" placeholder="Lösenord" aria-describedby="sizing-addon2">
+                                </div>
+                                <a href="#" class="btn btn-primary mobile-btn">Logga in</a>
+                            </div>
+                        </li>
+                        <li class="visible-xs"><a href="register.html">BLI MEDLEM</a> </li>
+                        <li><a href="#">SÖK <span class="glyphicon glyphicon-search" href="#"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-        <div class="jumbotron" align="center">
-            <h1>Power Fitness</h1>
-            <h3>Vilka är vi, och hur hamnade vi här?</h3>
+        <div class="container">
+            <ul class="breadcrumb">
+                <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+                <li><a href="about.html">Om oss</a></li>
+            </ul>
+        
+            <div class="jumbotron" align="center">
+                <h1>Power Fitness</h1>
+                <h3>Vilka är vi, och hur hamnade vi här?</h3>
+            </div>
         </div>
         <!-- About images and text -->
 
@@ -53,6 +135,40 @@
 
         
         <!-- Footer -->
+        <footer class="container site-footer">
+            <div class="row">
+                <div class="col-sm-3 col-xs-12 footer-item logo">
+                    <p><span class="logo-left">POWER</span> <span class="logo-right">WELLNESS</span></p>
+                </div>
+                <div class="col-sm-3 col-xs-12 footer-item">
+
+                    <ul>
+                        <h4 class="items-title">Länkar</h4>
+                        <li><a href="#">Kontakta oss</a> </li>
+                        <li><a href="#">Om oss</a> </li>
+                        <li><a href="#">Pass</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-xs-12 footer-item">
+                    <ul>
+                        <h4 class="items-title">Kontakt</h4>
+                        <li>Öppet 05:00 till 02:00</li>
+                        <li>O470-666 66</li>
+                        <li><a href="mailto:kontakt@powerwellness.se">kontakt@powerwellness.se</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-xs-12 footer-item">
+                    <span class="fa fa-facebook-square fa-4x"></span>
+                    <span class="fa fa-instagram fa-4x"></span>
+                    <span class="fa fa-twitter fa-4x"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 copy-footer">
+                    <p>&copy; Copyright Text</p>
+                </div>
+            </div>
+        </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </body>
