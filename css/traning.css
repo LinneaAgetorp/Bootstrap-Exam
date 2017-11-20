@@ -17,6 +17,10 @@ img:hover {
     color: white;
 }
 
+.image-text {
+    text-align: center;
+}
+
 #tab-panel {
     margin-top: 5px;
 }
